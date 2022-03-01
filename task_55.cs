@@ -40,5 +40,4 @@ for (int j = 0; j < n; j++)
         sum = sum + array[i, j];
     }
     Console.WriteLine($"Ср. арифм. {j + 1} столбца: {(double)sum / n}.\n");
-    sum = 0;
 }
